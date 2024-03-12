@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Lorem ipsum dolor sit. ",
+        "categories": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum, explicabo Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+        "imdbID": "1",
+        "age": "22",
+        "image": "images/p5.jpg",
+        "slide": "01"
+    },
+    {
+        "name": "Lorem ipsum dolor sit.",
+        "categories": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum, explicabo? Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+        "imdbID": "2",
+        "age": "23",
+        "image": "images/p2.jpg",
+        "slide": "02"
+    },
+    {
+        "name": "dfdgfg",
+        "categories": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum, explicabo?Lorem, ipsum dolor sit amet consectetur adipisicing elit. ",
+        "imdbID": "3",
+        "age": "22",
+        "image": "images/p8.jpg",
+        "slide": "03"
+    }
+]

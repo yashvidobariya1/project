@@ -1,0 +1,63 @@
+.sec-container {
+    width: 30%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    margin-top: 50px;
+
+    .login-details {
+        margin-top: 20px;
+    }
+
+    .login-details label {
+        font-weight: 600;
+    }
+
+    .login-details input[type="email"],
+    .login-details input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        border: 1px solid#ccc;
+        font-size: 13px;
+        border-radius: 3px;
+    }
+
+    .login-details button {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        background-color: rgb(21, 21, 90);
+        color: #fff;
+        cursor: pointer;
+
+        .login-details button:hover {
+            background-color: rgb(21, 21, 90);
+        }
+
+        .signup {
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        .signup h6 {
+            color: rgb(21, 21, 90);
+            cursor: pointer;
+        }
+
+        .signup h6:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .sec-container {
+        margin-top: 20px;
+        width: 90%;
+    }
+}

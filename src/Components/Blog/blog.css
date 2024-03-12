@@ -1,0 +1,116 @@
+.blog {
+
+    .sectitle {
+        margin-top: 3.4rem;
+        justify-content: center;
+        display: flex;
+        color: rgb(36, 36, 151);
+        font-size: 26px;
+
+    }
+
+    p {
+        margin-top: .5rem;
+        color: gray;
+        justify-content: center;
+        display: flex;
+    }
+
+    .maincontainer {
+        gap: 2.5rem;
+        display: flex;
+        margin: 2rem;
+
+
+
+        .singlepost {
+            gap: 1rem;
+            display: flex;
+            margin-top: 2.5rem;
+            /* box-shadow: 0 2px 8px 4px rgba(230, 236, 236, 0.45); */
+            padding: 10px;
+            border-radius: 10px;
+
+            @media (max-width: 1024px) {
+                display: block;
+                grid-template-columns: 1fr;
+                gap: 1rem;
+                justify-items: center;
+            }
+
+
+            .imgdiv {
+                height: 200px;
+                width: 100%;
+                border-radius: 1rem;
+                box-shadow: 0 2px 8px 4px rgb(128, 178, 178, 0.45);
+                overflow: hidden;
+
+                &:hover {
+                    img {
+                        transform: scale(1.1);
+                        transition: 3s ease;
+                    }
+                }
+
+                img {
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+
+            .postdetails {
+                h3 {
+                    color: black;
+                    font-weight: 600;
+                    padding: 10px 0;
+                    text-align: left;
+
+                }
+
+                p {
+                    font-size: 13px;
+                    color: rgb(115, 115, 116);
+                    font-weight: 600;
+                    text-align: left;
+
+                }
+            }
+
+            a {
+                font-size: 13px;
+                color: rgb(18, 18, 155);
+                font-weight: 600;
+                width: max-content;
+                text-align: right;
+                float: right;
+
+                .icon {
+                    background-color: rgb(24, 17, 117);
+                    border-radius: 50%;
+                    font-size: 23px;
+                    margin-left: 9px;
+                    color: white;
+                }
+
+                &:hover {
+                    color: rgb(4, 4, 8);
+                    font-weight: 600;
+
+                    .icon {
+                        transform: translateX(10px)
+                    }
+                }
+            }
+        }
+
+        @media (max-width: 600px) {
+            display: block;
+            grid-template-columns: 2fr;
+            gap: 1rem;
+            justify-items: center;
+        }
+
+
+    }
+}

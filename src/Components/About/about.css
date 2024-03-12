@@ -1,0 +1,107 @@
+.about {
+    .seccontainer {
+        .title {
+            color: rgb(197, 186, 186);
+            line-height: 1.5rem;
+            padding-bottom: .5rem;
+            text-align: center;
+            font-size: 2.rem;
+            margin-top: 2rem;
+        }
+
+        .maincontent {
+            gap: 1rem;
+
+            .singleitem {
+                text-align: center;
+
+                img {
+                    background-color: rgb(252, 244, 244);
+                    border-radius: 50%;
+                    width: 100px;
+
+                }
+
+                h3 {
+                    font-weight: 700;
+                    color: black;
+                    padding: .5rem;
+                }
+
+                p {
+                    padding-bottom: .5rem;
+                    font-size: 13px;
+                    font-weight: 500;
+                    color: gray;
+                }
+            }
+
+            @media (max-width: 600px) {
+                display: grid;
+                grid-template-columns: 1fr;
+                gap: 1rem;
+                justify-items: center;
+            }
+        }
+
+        .videocard {
+            margin-top: 2rem;
+            background: linear-gradient(rgba(23, 33, 33, 0.522), rgb(33, 33, 33, 0.522)), url('../../../public/images/bg2.jpg');
+            background-position: center;
+
+            .cardcontent {
+                gap: 2rem;
+                padding: 2rem 1rem;
+                display: flex;
+
+                @media (max-width: 600px) {
+                    display: grid;
+                    grid-template-columns: 1fr;
+                    gap: 1rem;
+                    justify-items: center;
+                }
+
+                .cardtext {
+                    h2 {
+                        color: white;
+                        font-weight: 600;
+                        padding-bottom: 1rem;
+                    }
+
+                    p {
+                        color: white;
+                        opacity: .7;
+                        font-size: 12px;
+                        font-weight: 400;
+                        letter-spacing: 1px;
+                    }
+
+
+
+                }
+            }
+
+            .cardvideo {
+                border: 2px solid white;
+                height: 300px;
+                width: 100%;
+                border-radius: 10px;
+                overflow: hidden;
+
+                video {
+                    height: 300px;
+                    width: 100%;
+                    object-fit: cover;
+                }
+
+
+                @media (max-width: 600px) {
+                    height: 200px;
+                }
+            }
+
+
+
+        }
+    }
+}

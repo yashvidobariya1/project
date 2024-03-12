@@ -1,0 +1,192 @@
+/* header */
+
+.navbarsection {
+    .header {
+        position: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: transparent;
+        width: 100%;
+        padding: 1rem;
+        z-index: 1000;
+
+        .logodiv {
+            .logo {
+                color: rgb(0, 0, 0);
+                font-weight: 500;
+                cursor: pointer;
+                justify-content: center;
+                align-items: center;
+
+                .icon {
+                    font-size: 25px;
+                    color: #000;
+                }
+
+            }
+        }
+
+
+        @media screen and (max-width:768px) {
+            .navbar {
+                background: rgb(226, 226, 226);
+                position: absolute;
+                height: max-content;
+                padding: 1rem;
+                width: 100%;
+                top: 0;
+                left: -500%;
+                box-shadow: 0 2px 4px rgb(209, 209, 209, 0.904);
+                z-index: 1000;
+                transition: .5s ease;
+
+                .navlist {
+                    flex-direction: column;
+                    justify-content: center;
+                    width: 100%;
+                    margin: auto;
+
+                    .navItem {
+                        padding: 1rem 0;
+
+                        .navLink {
+                            color: #84868a;
+                            font-size: .9rem;
+                            font-weight: 400;
+
+                            &:hover {
+                                color: #45567d;
+                            }
+                        }
+                    }
+
+                    .headerBtns {
+                        flex-direction: column;
+
+
+                        .btn {
+                            margin-top: 1rem;
+
+                        }
+
+                        a {
+                            font-weight: 600;
+                            color: #45567d;
+
+                            &:hover {
+                                color: #45567d;
+                            }
+                        }
+                    }
+
+                    .loginbtn {
+                        background-color: none;
+                        border: 1px solid #45567d;
+
+
+                        a {
+                            color: #ffffff;
+
+                        }
+
+                        &:hover {
+                            background-color: #ffffff;
+                            transition: .5s ease;
+                            z-index: 1000;
+                            color: #45567d;
+
+
+                        }
+                    }
+                }
+
+                .closenavbar {
+                    position: absolute;
+                    top: 1rem;
+                    right: 1.5rem;
+                    color: #45567d;
+
+                    &:hover .icon {
+                        color: #45567d;
+                    }
+                }
+            }
+
+            .activenavbar {
+                left: 0;
+            }
+        }
+
+        .togglenavbar {
+            .icon {
+                font-size: 25px;
+                color: rgb(0, 0, 0);
+
+                &:hover {
+                    color: #45567d;
+                }
+            }
+        }
+    }
+
+    .activeheader {
+        background-color: rgb(248, 248, 248);
+    }
+}
+
+@media screen and (min-width:768px) {
+    .navbarsection {
+
+        .togglenavbar,
+        .closenavbar {
+            display: none;
+        }
+
+        .header {
+            padding: 1.5rem 2rem !important;
+
+            .navbar {
+                .navlist {
+                    display: flex;
+                    align-items: center;
+                    flex-direction: row;
+                    justify-content: center;
+
+
+                    .navItem {
+                        .navLink {
+                            color: rgb(0, 0, 0);
+                            padding: 0 .45rem;
+                            font-size: .9rem;
+                            font-weight: 500;
+
+                            &:hover {
+                                color: #c9c8ff;
+                                font-size: 16px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .header {
+        .navbar {
+            .navlist {
+                .navItem {
+                    padding: 0 .7rem;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .header {
+        padding: 1rem 8.5rem !important;
+    }
+}

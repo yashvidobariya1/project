@@ -1,0 +1,193 @@
+.popular {
+    padding-top: 10rem;
+
+    .seccontainer {
+        .secheader {
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+
+            .textdiv {
+                .sectitle {
+                    color: blue;
+                    line-height: 1.5rem;
+                    padding-bottom: .5rem;
+                    justify-content: center;
+                    display: flex;
+                }
+
+                .p {
+                    font-size: 13px;
+                    color: blue;
+                    font-weight: 500;
+                }
+            }
+
+            .icondiv {
+                gap: .9rem;
+
+                .icon {
+                    padding: .5rem;
+                    background: gray;
+                    border-radius: 50%;
+                    font-size: 2rem;
+
+                    &:hover {
+                        background-color: rgb(15, 7, 7);
+                        column-rule: white;
+                        color: white;
+                        font-size: 2rem;
+
+                    }
+                }
+
+                .lefticon {
+                    background-color: black;
+                    color: white;
+
+                    &:hover {
+                        background-color: gray;
+                        color: black;
+                    }
+                }
+            }
+        }
+
+        .maincontent {
+            padding: 2rem 0;
+            display: grid;
+            margin: 0 7%;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 1rem;
+            justify-content: center;
+
+
+            .singledestination {
+                overflow: hidden;
+                border-radius: 1rem;
+                box-shadow: 0 2px 8px 2px rgba(178, 178, 178, 0.795);
+
+                .desimage {
+                    height: 250px;
+                    width: 100%;
+                    position: relative;
+                    overflow: hidden;
+
+                    img {
+                        height: 100%;
+                        width: 100%;
+                        object-fit: cover;
+                    }
+
+                    .overlyinfo {
+                        position: absolute;
+                        display: flex;
+                        align-items: flex-start;
+                        padding: 0;
+                        justify-content: center;
+                        flex-direction: column;
+                        background: linear-gradient(rgba(0, 0, 0, 0.846), rgba(0, 0, 0, 0.759));
+                        bottom: 0;
+                        width: 100%;
+                        overflow: hidden;
+                        height: 0;
+                        transition: 0.3s ease;
+
+
+                        h3 {
+                            color: white;
+                            font-weight: 600;
+                        }
+
+                        p {
+                            color: white;
+                            opacity: .7;
+                            font-size: 13px;
+                            text-align: left;
+                        }
+
+                        .icon {
+                            position: absolute;
+                            right: 10px;
+                            bottom: 10px;
+                            padding: .5rem;
+                            background: rgb(24, 24, 83);
+                            font-size: 2rem;
+                            border-radius: 50%;
+                            color: azure;
+                            transition: .3s ease;
+
+                            &:hover {
+                                background-color: rgb(255, 255, 255);
+                                color: rgb(67, 42, 206);
+                                border: 1px solid rgb(21, 21, 90);
+                            }
+                        }
+                    }
+                }
+
+
+                .destfooter {
+                    padding: 1rem;
+
+                    p {
+                        font-size: 1rem;
+                    }
+
+                    .number {
+                        font-size: 2rem;
+                        font-weight: 700;
+                        color: black;
+                        position: relative;
+                        width: max-content;
+
+                        &::after {
+                            content: '';
+                            position: absolute;
+                            background-color: rgb(28, 28, 117);
+                            top: 45%;
+                            right: -150%;
+                            height: 5px;
+                            width: 45px;
+                            border-radius: 1rem;
+                        }
+                    }
+
+                    .desttext {
+                        justify-content: space-between;
+
+                        h6 {
+                            color: black;
+                            font-size: 16px;
+                        }
+
+                        .flex {
+                            font-size: 16px;
+                            font-weight: 600;
+                            align-items: flex-start;
+                            transform: translateY(5px);
+
+                            .icon {
+                                color: rgb(31, 31, 66);
+                            }
+                        }
+                    }
+                }
+
+                &:hover {
+                    .overlyinfo {
+                        overflow: visible;
+                        padding: 1.5rem;
+                        height: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:400px) {
+    .popular {
+        padding-top: 8rem;
+    }
+}

@@ -1,0 +1,147 @@
+.left-profile {
+    width: 20%;
+    height: 100vh;
+    background-color: rgb(247, 247, 247);
+    box-shadow: 0 4px 8px 0 rgba(0.4, 0, 0, 0.2);
+    margin-top: 4.5rem;
+}
+
+.right-profile {
+    margin-top: 2rem;
+}
+
+.profile-silder {
+    display: flex;
+}
+
+.left-profile h1 {
+    color: #800020;
+    font-weight: 400;
+    font-family: Quicksand;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.left-profile img {
+    width: 100%;
+}
+
+.userprofile h1 {
+    color: #D4AF37;
+    font-weight: 900;
+}
+
+.userprofile {
+    margin: 40px;
+    width: 80%;
+}
+
+.userprofile th {
+    padding: 5px 190px 25px 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float: left;
+}
+
+.userprofile tr {
+    box-shadow: 0px 5px 5px -5px rgba(0, 0, 0, 0.2);
+    width: 90%;
+}
+
+.logout,
+.editprofile,
+.conatct {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+}
+
+
+.logout button,
+#editprofile,
+#contact:hover {
+    background-color: #333;
+}
+
+.logout button {
+    color: #ffffff;
+    background-color: #D4AF37;
+    padding: 8px 65px;
+    border: none;
+    border-radius: 10px;
+}
+
+#editprofile {
+    color: #ffffff;
+    background-color: #D4AF37;
+    padding: 8px 75px;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#save {
+    color: #ffffff;
+    background-color: #800020;
+    padding: 8px 85px;
+    border: none;
+
+    border-radius: 10px;
+}
+
+#contact {
+    background-color: #D4AF37;
+    padding: 8px 65px;
+    border: none;
+    border-radius: 10px;
+    width: 170px;
+}
+
+#contact a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .profile-silder {
+        flex-direction: column
+    }
+
+    .left-profile {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .rigth-profile {
+        flex-direction: column;
+    }
+
+    .userprofile {
+        margin: 20px;
+        width: calc(100%-40px);
+    }
+
+    .logout button,
+    #editprofile,
+    #save,
+    #contact {
+        margin: 20px auto;
+        width: 80%;
+        padding: 8px 0;
+
+    }
+
+    .userprofile th {
+        padding: 25px;
+    }
+
+    .userprofile h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+}

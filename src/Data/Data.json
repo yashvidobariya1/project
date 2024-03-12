@@ -1,0 +1,52 @@
+[
+    {
+        "name": "kiara advani",
+        "categories": "Gujrati",
+        "imdbID": "1",
+        "age": "22",
+        "image": "images/p1.jpg",
+        "Education": " Lorem ipsum dolor sit, amet consectetur adipisicing.",
+        "Profession": "Lorem, ipsum dolor.",
+        "slide": "01"
+    },
+    {
+        "name": "Alia Bhatt",
+        "categories": "Marathi",
+        "imdbID": "2",
+        "age": "23",
+        "image": "images/p2.jpg",
+        "Education": " Lorem ipsum dolor sit, amet consectetur adipisicing.",
+        "Profession": "Lorem, ipsum dolor.",
+        "slide": "02"
+    },
+    {
+        "name": "Anushka Sharma",
+        "categories": "jain",
+        "imdbID": "3",
+        "age": "22",
+        "image": "images/p3.png",
+        "Education": " Lorem ipsum dolor sit, amet consectetur adipisicing.",
+        "Profession": "Lorem, ipsum dolor.",
+        "slide": "03"
+    },
+    {
+        "name": "Shraddha Kapoor",
+        "categories": "Sikh",
+        "imdbID": "4",
+        "age": "20",
+        "image": "images/p4.jpg",
+        "Education": "  amet consectetur adipisicing.",
+        "Profession": "Lorem, ipsum dolor.",
+        "slide": "04"
+    },
+    {
+        "name": "Kareena Kapoor",
+        "categories": "Gujrati",
+        "imdbID": "5",
+        "age": "22",
+        "image": "images/p5.jpg",
+        "Education": " dolor sit, amet consectetur adipisicing.",
+        "Profession": "Lorem, ipsum dolor.",
+        "slide": "01"
+    }
+]

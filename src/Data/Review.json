@@ -1,0 +1,37 @@
+[
+    {
+        "name": "sim",
+        "image": "images/re1.jpg",
+        "categories": "gujrati",
+        "imdbID": "1",
+        "review": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus nostrum iste fugit praesentium doloremque enim qui nesciunt veniam ea. Qui?"
+    },
+    {
+        "name": "ree",
+        "image": "images/re2.jpg",
+        "categories": "punjabi",
+        "imdbID": "2",
+        "review": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis enim autem obcaecati a vel non exercitationem quaerat, provident dolores neque!"
+    },
+    {
+        "name": "jaasii",
+        "image": "images/re3.jpg",
+        "categories": "gujrati",
+        "imdbID": "3",
+        "review": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore quod, a ratione architecto impedit molestias qui, quam eius facere pariatur nesciunt? Iste, omnis!"
+    },
+    {
+        "name": "Seema ",
+        "image": "images/re4.jpg",
+        "categories": "Rajasthan",
+        "imdbID": "4",
+        "review": " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt et cumque, mollitia accusamus voluptate vero alias adipisci similique magni recusandae?"
+    },
+    {
+        "name": "meen",
+        "image": "images/re5.jpg",
+        "categories": "Gayatri",
+        "imdbID": "5",
+        "review": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore unde voluptate minus optio ad voluptatibus sint illo sunt iste dolor!"
+    }
+]

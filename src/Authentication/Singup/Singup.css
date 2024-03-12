@@ -1,0 +1,66 @@
+/* Singup.css */
+
+.section {
+    display: flex;
+    justify-content: center;
+}
+
+.signup-info {
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+.signup-details {
+    margin-top: 20px;
+}
+
+.signup-details label {
+    font-weight: bold;
+}
+
+.signup-details input[type="email"],
+.signup-details input[type="password"],
+.signup-details input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+
+
+.signup-details .gender input[type="radio"] {
+    margin: 10px 15px 20px 10px;
+}
+
+.signup-details .region {
+    margin-top: 10px;
+}
+
+.signup-details .region input[type="checkbox"] {
+    margin-right: 5px;
+    margin: 15px;
+
+}
+
+.signup-details button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(21, 21, 90);
+    color: #fff;
+    cursor: pointer;
+}
+
+.signup-details button:hover {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(21, 21, 90);
+    color: rgb(21, 21, 90);
+}
